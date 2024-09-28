@@ -1,0 +1,2435 @@
+Dependencies for Project 'Project', Target 'Target 1': (DO NOT MODIFY !)
+F (.\SYSTEM\delay\delay.c)(0x583D2EFC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (SYSTEM\delay\delay.h)(0x583D2EFC)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A18)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x651FAD63)
+I (.\SYSTEM\usart\usart.h)(0x63F73010)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A18)
+I (.\FreeRTOS\include\portable.h)(0x573F3A18)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A18)
+I (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x573F3A18)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A18)
+I (.\FreeRTOS\include\task.h)(0x573F3A18)
+I (.\FreeRTOS\include\list.h)(0x573F3A18)
+F (.\SYSTEM\sys\sys.c)(0x55CC2E7A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
+I (SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (.\SYSTEM\usart\usart.c)(0x63F8162C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (SYSTEM\usart\usart.h)(0x63F73010)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A18)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x651FAD63)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A18)
+I (.\FreeRTOS\include\portable.h)(0x573F3A18)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A18)
+I (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x573F3A18)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A18)
+F (.\CORE\core_cm3.c)(0x4C0C587E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+F (.\CORE\startup_stm32f10x_hd.s)(0x4D783CDE)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524" --pd "STM32F10X_HD SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)
+F (.\STM32F10x_FWLib\src\misc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+F (.\STM32F10x_FWLib\src\stm32f10x_adc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_adc.o --omf_browse .\objects\stm32f10x_adc.crf --depend .\objects\stm32f10x_adc.d)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (.\STM32F10x_FWLib\src\stm32f10x_exti.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_exti.o --omf_browse .\objects\stm32f10x_exti.crf --depend .\objects\stm32f10x_exti.d)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (.\STM32F10x_FWLib\src\stm32f10x_flash.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_flash.o --omf_browse .\objects\stm32f10x_flash.crf --depend .\objects\stm32f10x_flash.d)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (.\STM32F10x_FWLib\src\stm32f10x_fsmc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_fsmc.o --omf_browse .\objects\stm32f10x_fsmc.crf --depend .\objects\stm32f10x_fsmc.d)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (.\STM32F10x_FWLib\src\stm32f10x_gpio.c)(0x4D79EEC6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (.\STM32F10x_FWLib\src\stm32f10x_iwdg.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_iwdg.o --omf_browse .\objects\stm32f10x_iwdg.crf --depend .\objects\stm32f10x_iwdg.d)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (.\STM32F10x_FWLib\src\stm32f10x_rcc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (.\STM32F10x_FWLib\src\stm32f10x_spi.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_spi.o --omf_browse .\objects\stm32f10x_spi.crf --depend .\objects\stm32f10x_spi.d)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (.\STM32F10x_FWLib\src\stm32f10x_tim.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_tim.o --omf_browse .\objects\stm32f10x_tim.crf --depend .\objects\stm32f10x_tim.d)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (.\STM32F10x_FWLib\src\stm32f10x_usart.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_usart.o --omf_browse .\objects\stm32f10x_usart.crf --depend .\objects\stm32f10x_usart.d)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (.\STM32F10x_FWLib\src\stm32f10x_dma.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_dma.o --omf_browse .\objects\stm32f10x_dma.crf --depend .\objects\stm32f10x_dma.d)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (.\STM32F10x_FWLib\src\stm32f10x_sdio.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_sdio.o --omf_browse .\objects\stm32f10x_sdio.crf --depend .\objects\stm32f10x_sdio.d)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (.\FreeRTOS\croutine.c)(0x573F3A18)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\croutine.o --omf_browse .\objects\croutine.crf --depend .\objects\croutine.d)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A18)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x651FAD63)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\SYSTEM\usart\usart.h)(0x63F73010)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A18)
+I (.\FreeRTOS\include\portable.h)(0x573F3A18)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A18)
+I (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x573F3A18)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A18)
+I (.\FreeRTOS\include\task.h)(0x573F3A18)
+I (.\FreeRTOS\include\list.h)(0x573F3A18)
+I (.\FreeRTOS\include\croutine.h)(0x573F3A18)
+F (.\FreeRTOS\event_groups.c)(0x573F3A18)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\event_groups.o --omf_browse .\objects\event_groups.crf --depend .\objects\event_groups.d)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A18)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x651FAD63)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\SYSTEM\usart\usart.h)(0x63F73010)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A18)
+I (.\FreeRTOS\include\portable.h)(0x573F3A18)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A18)
+I (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x573F3A18)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A18)
+I (.\FreeRTOS\include\task.h)(0x573F3A18)
+I (.\FreeRTOS\include\list.h)(0x573F3A18)
+I (.\FreeRTOS\include\timers.h)(0x573F3A18)
+I (.\FreeRTOS\include\event_groups.h)(0x573F3A18)
+F (.\FreeRTOS\list.c)(0x573F3A18)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A18)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x651FAD63)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\SYSTEM\usart\usart.h)(0x63F73010)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A18)
+I (.\FreeRTOS\include\portable.h)(0x573F3A18)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A18)
+I (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x573F3A18)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A18)
+I (.\FreeRTOS\include\list.h)(0x573F3A18)
+F (.\FreeRTOS\queue.c)(0x573F3A18)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A18)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x651FAD63)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\SYSTEM\usart\usart.h)(0x63F73010)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A18)
+I (.\FreeRTOS\include\portable.h)(0x573F3A18)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A18)
+I (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x573F3A18)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A18)
+I (.\FreeRTOS\include\task.h)(0x573F3A18)
+I (.\FreeRTOS\include\list.h)(0x573F3A18)
+I (.\FreeRTOS\include\queue.h)(0x573F3A18)
+F (.\FreeRTOS\tasks.c)(0x573F3A18)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A18)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x651FAD63)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\SYSTEM\usart\usart.h)(0x63F73010)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A18)
+I (.\FreeRTOS\include\portable.h)(0x573F3A18)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A18)
+I (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x573F3A18)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A18)
+I (.\FreeRTOS\include\task.h)(0x573F3A18)
+I (.\FreeRTOS\include\list.h)(0x573F3A18)
+I (.\FreeRTOS\include\timers.h)(0x573F3A18)
+I (.\FreeRTOS\include\StackMacros.h)(0x573F3A18)
+F (.\FreeRTOS\timers.c)(0x573F3A18)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A18)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x651FAD63)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\SYSTEM\usart\usart.h)(0x63F73010)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A18)
+I (.\FreeRTOS\include\portable.h)(0x573F3A18)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A18)
+I (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x573F3A18)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A18)
+I (.\FreeRTOS\include\task.h)(0x573F3A18)
+I (.\FreeRTOS\include\list.h)(0x573F3A18)
+I (.\FreeRTOS\include\queue.h)(0x573F3A18)
+I (.\FreeRTOS\include\timers.h)(0x573F3A18)
+F (.\FreeRTOS\portable\MemMang\heap_4.c)(0x573F3A18)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\heap_4.o --omf_browse .\objects\heap_4.crf --depend .\objects\heap_4.d)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A18)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x651FAD63)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\SYSTEM\usart\usart.h)(0x63F73010)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A18)
+I (.\FreeRTOS\include\portable.h)(0x573F3A18)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A18)
+I (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x573F3A18)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A18)
+I (.\FreeRTOS\include\task.h)(0x573F3A18)
+I (.\FreeRTOS\include\list.h)(0x573F3A18)
+F (.\FreeRTOS\portable\RVDS\ARM_CM3\port.c)(0x573F3A18)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A18)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x651FAD63)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\SYSTEM\usart\usart.h)(0x63F73010)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A18)
+I (.\FreeRTOS\include\portable.h)(0x573F3A18)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A18)
+I (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x573F3A18)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A18)
+I (.\FreeRTOS\include\task.h)(0x573F3A18)
+I (.\FreeRTOS\include\list.h)(0x573F3A18)
+F (.\MALLOC\malloc.c)(0x5502E8B4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\malloc.o --omf_browse .\objects\malloc.crf --depend .\objects\malloc.d)
+I (MALLOC\malloc.h)(0x65083922)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (.\FATFS\exfuns\exfuns.c)(0x54FA7DA6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\exfuns.o --omf_browse .\objects\exfuns.crf --depend .\objects\exfuns.d)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (FATFS\exfuns\exfuns.h)(0x54FA7D9C)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\FATFS\src\ff.h)(0x54F2F5BA)
+I (.\FATFS\src\integer.h)(0x54D8A8DA)
+I (.\FATFS\src\ffconf.h)(0x54F2F33A)
+I (FATFS\exfuns\fattester.h)(0x54BE4B6E)
+I (.\MALLOC\malloc.h)(0x65083922)
+I (.\SYSTEM\usart\usart.h)(0x63F73010)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+F (.\FATFS\exfuns\fattester.c)(0x64E87394)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\fattester.o --omf_browse .\objects\fattester.crf --depend .\objects\fattester.d)
+I (FATFS\exfuns\fattester.h)(0x54BE4B6E)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\FATFS\src\ff.h)(0x54F2F5BA)
+I (.\FATFS\src\integer.h)(0x54D8A8DA)
+I (.\FATFS\src\ffconf.h)(0x54F2F33A)
+I (.\HARDWARE\SDIO\sdio_sdcard.h)(0x55BB1256)
+I (.\SYSTEM\usart\usart.h)(0x63F73010)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (FATFS\exfuns\exfuns.h)(0x54FA7D9C)
+I (.\MALLOC\malloc.h)(0x65083922)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+F (.\FATFS\exfuns\mycc936.c)(0x55095B9A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\mycc936.o --omf_browse .\objects\mycc936.crf --depend .\objects\mycc936.d)
+I (.\FATFS\src\ff.h)(0x54F2F5BA)
+I (.\FATFS\src\integer.h)(0x54D8A8DA)
+I (.\FATFS\src\ffconf.h)(0x54F2F33A)
+I (.\TEXT\fontupd.h)(0x54BE516A)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\HARDWARE\w25qxx.h)(0x55027E20)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+F (.\FATFS\src\diskio.c)(0x55095B9A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\diskio.o --omf_browse .\objects\diskio.crf --depend .\objects\diskio.d)
+I (FATFS\src\diskio.h)(0x54D8A8DA)
+I (FATFS\src\integer.h)(0x54D8A8DA)
+I (.\HARDWARE\SDIO\sdio_sdcard.h)(0x55BB1256)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\HARDWARE\w25qxx.h)(0x55027E20)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\MALLOC\malloc.h)(0x65083922)
+F (.\FATFS\src\ff.c)(0x5502EDCC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\ff.o --omf_browse .\objects\ff.crf --depend .\objects\ff.d)
+I (FATFS\src\ff.h)(0x54F2F5BA)
+I (FATFS\src\integer.h)(0x54D8A8DA)
+I (FATFS\src\ffconf.h)(0x54F2F33A)
+I (FATFS\src\diskio.h)(0x54D8A8DA)
+I (D:\Keil5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+F (.\TEXT\fontupd.c)(0x6502F241)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\fontupd.o --omf_browse .\objects\fontupd.crf --depend .\objects\fontupd.d)
+I (TEXT\fontupd.h)(0x54BE516A)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\FATFS\src\ff.h)(0x54F2F5BA)
+I (.\FATFS\src\integer.h)(0x54D8A8DA)
+I (.\FATFS\src\ffconf.h)(0x54F2F33A)
+I (.\HARDWARE\w25qxx.h)(0x55027E20)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\HARDWARE\LCD\lcd.h)(0x64E88A36)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\MALLOC\malloc.h)(0x65083922)
+I (.\SYSTEM\delay\delay.h)(0x583D2EFC)
+I (.\SYSTEM\usart\usart.h)(0x63F73010)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (.\TEXT\text.c)(0x55095B9A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\text.o --omf_browse .\objects\text.crf --depend .\objects\text.d)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (TEXT\fontupd.h)(0x54BE516A)
+I (.\HARDWARE\w25qxx.h)(0x55027E20)
+I (.\HARDWARE\LCD\lcd.h)(0x64E88A36)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (TEXT\text.h)(0x54BE516A)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\SYSTEM\usart\usart.h)(0x63F73010)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (.\TASK\Get_Sensors_Data\Get_Sensors_DataTask.c)(0x6522628C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\get_sensors_datatask.o --omf_browse .\objects\get_sensors_datatask.crf --depend .\objects\get_sensors_datatask.d)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A18)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x651FAD63)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\SYSTEM\usart\usart.h)(0x63F73010)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A18)
+I (.\FreeRTOS\include\portable.h)(0x573F3A18)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A18)
+I (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x573F3A18)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A18)
+I (.\FreeRTOS\include\task.h)(0x573F3A18)
+I (.\FreeRTOS\include\list.h)(0x573F3A18)
+I (TASK\Get_Sensors_Data\Get_Sensors_DataTask.h)(0x6525162F)
+I (.\HARDWARE\dht11.h)(0x6501B358)
+I (.\HARDWARE\adc.h)(0x634027F4)
+I (.\HARDWARE\rc522.h)(0x63F77734)
+I (.\HARDWARE\spi.h)(0x65225D80)
+I (.\HARDWARE\gpio.h)(0x634795CE)
+I (.\SYSTEM\delay\delay.h)(0x583D2EFC)
+I (.\HARDWARE\LCD\lcd.h)(0x64E88A36)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\TASK\lcd_app_play\lcd_app_playTask.h)(0x64E86E68)
+I (.\HARDWARE\TIM3_CAP.h)(0x6342B2C6)
+I (.\HARDWARE\LED\led.h)(0x63F76EAE)
+I (D:\Keil5\ARM\ARMCC\include\String.h)(0x588B8344)
+I (.\HARDWARE\stmflash.h)(0x65224741)
+I (.\TEXT\text.h)(0x54BE516A)
+I (.\TEXT\fontupd.h)(0x54BE516A)
+I (.\HARDWARE\CountSensor.h)(0x6501BEB3)
+I (.\HARDWARE\Encoder.h)(0x61B03661)
+F (.\TASK\actuator_app_play\actuator_app_playTask.c)(0x65250F73)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\actuator_app_playtask.o --omf_browse .\objects\actuator_app_playtask.crf --depend .\objects\actuator_app_playtask.d)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A18)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x651FAD63)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\SYSTEM\usart\usart.h)(0x63F73010)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A18)
+I (.\FreeRTOS\include\portable.h)(0x573F3A18)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A18)
+I (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x573F3A18)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A18)
+I (.\FreeRTOS\include\task.h)(0x573F3A18)
+I (.\FreeRTOS\include\list.h)(0x573F3A18)
+I (.\HARDWARE\sg90.h)(0x64F14738)
+I (TASK\actuator_app_play\actuator_app_playTask.h)(0x650987F0)
+I (.\TASK\Get_Sensors_Data\Get_Sensors_DataTask.h)(0x6525162F)
+I (.\HARDWARE\gpio.h)(0x634795CE)
+I (.\HARDWARE\LED\led.h)(0x63F76EAE)
+I (.\HARDWARE\usart2.h)(0x5BB75442)
+I (D:\Keil5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\TASK\user_app_play\user_app_playTask.h)(0x650987F0)
+I (.\SYSTEM\delay\delay.h)(0x583D2EFC)
+I (.\HARDWARE\beep.h)(0x634764E2)
+F (.\TASK\lcd_app_play\lcd_app_playTask.c)(0x6522A464)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\lcd_app_playtask.o --omf_browse .\objects\lcd_app_playtask.crf --depend .\objects\lcd_app_playtask.d)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A18)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x651FAD63)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\SYSTEM\usart\usart.h)(0x63F73010)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A18)
+I (.\FreeRTOS\include\portable.h)(0x573F3A18)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A18)
+I (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x573F3A18)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A18)
+I (.\FreeRTOS\include\task.h)(0x573F3A18)
+I (.\FreeRTOS\include\list.h)(0x573F3A18)
+I (.\HARDWARE\LCD\hanzi.h)(0x6347A5D2)
+I (.\SYSTEM\delay\delay.h)(0x583D2EFC)
+I (TASK\lcd_app_play\lcd_app_playTask.h)(0x64E86E68)
+I (.\TASK\Get_Sensors_Data\Get_Sensors_DataTask.h)(0x6525162F)
+I (.\HARDWARE\LCD\lcd.h)(0x64E88A36)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\MALLOC\malloc.h)(0x65083922)
+I (.\HARDWARE\SDIO\sdio_sdcard.h)(0x55BB1256)
+I (.\HARDWARE\w25qxx.h)(0x55027E20)
+I (.\FATFS\src\ff.h)(0x54F2F5BA)
+I (.\FATFS\src\integer.h)(0x54D8A8DA)
+I (.\FATFS\src\ffconf.h)(0x54F2F33A)
+I (.\FATFS\exfuns\exfuns.h)(0x54FA7D9C)
+I (.\TEXT\text.h)(0x54BE516A)
+I (.\TEXT\fontupd.h)(0x54BE516A)
+I (.\TASK\wifi_app_play\wifi_app_playTask.h)(0x652208C5)
+I (.\HARDWARE\stmflash.h)(0x65224741)
+F (.\TASK\user_app_play\user_app_playTask.c)(0x6524013B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\user_app_playtask.o --omf_browse .\objects\user_app_playtask.crf --depend .\objects\user_app_playtask.d)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A18)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x651FAD63)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\SYSTEM\usart\usart.h)(0x63F73010)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A18)
+I (.\FreeRTOS\include\portable.h)(0x573F3A18)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A18)
+I (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x573F3A18)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A18)
+I (.\FreeRTOS\include\task.h)(0x573F3A18)
+I (.\FreeRTOS\include\list.h)(0x573F3A18)
+I (.\HARDWARE\key1.h)(0x6502CD98)
+I (TASK\user_app_play\user_app_playTask.h)(0x650987F0)
+I (.\TASK\Get_Sensors_Data\Get_Sensors_DataTask.h)(0x6525162F)
+I (.\HARDWARE\LED\led.h)(0x63F76EAE)
+I (.\HARDWARE\beep.h)(0x634764E2)
+I (.\SYSTEM\delay\delay.h)(0x583D2EFC)
+I (.\HARDWARE\W25Q64.h)(0x641ED9A2)
+I (.\HARDWARE\stmflash.h)(0x65224741)
+F (.\TASK\wifi_app_play\wifi_app_playTask.c)(0x6525381C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\wifi_app_playtask.o --omf_browse .\objects\wifi_app_playtask.crf --depend .\objects\wifi_app_playtask.d)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A18)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x651FAD63)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\SYSTEM\usart\usart.h)(0x63F73010)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A18)
+I (.\FreeRTOS\include\portable.h)(0x573F3A18)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A18)
+I (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x573F3A18)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A18)
+I (.\FreeRTOS\include\task.h)(0x573F3A18)
+I (.\FreeRTOS\include\list.h)(0x573F3A18)
+I (.\SYSTEM\delay\delay.h)(0x583D2EFC)
+I (TASK\wifi_app_play\wifi_app_playTask.h)(0x652208C5)
+I (.\TASK\Get_Sensors_Data\Get_Sensors_DataTask.h)(0x6525162F)
+I (.\TASK\actuator_app_play\actuator_app_playTask.h)(0x650987F0)
+I (.\HARDWARE\beep.h)(0x634764E2)
+I (.\HARDWARE\LED\led.h)(0x63F76EAE)
+I (.\HARDWARE\WIFI\hal_uart3.h)(0x64F9E0EC)
+I (.\HARDWARE\stmflash.h)(0x65224741)
+I (.\HARDWARE\WIFI\WiFiToCloud.h)(0x652539B7)
+I (.\HARDWARE\WIFI\HAL_WiFiToCloud.h)(0x6342D734)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\HARDWARE\WIFI\CloudReference.h)(0x65253BF4)
+I (.\HARDWARE\tim7.h)(0x6347C1A2)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\time.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\TASK\user_app_play\user_app_playTask.h)(0x650987F0)
+I (.\HARDWARE\SYN6288.h)(0x6522A2A4)
+F (.\HARDWARE\adc.c)(0x6502D0E8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (HARDWARE\adc.h)(0x634027F4)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\SYSTEM\delay\delay.h)(0x583D2EFC)
+F (.\HARDWARE\beep.c)(0x64E718A8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\beep.o --omf_browse .\objects\beep.crf --depend .\objects\beep.d)
+I (HARDWARE\beep.h)(0x634764E2)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\SYSTEM\delay\delay.h)(0x583D2EFC)
+F (.\HARDWARE\dht11.c)(0x6501B2D3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\dht11.o --omf_browse .\objects\dht11.crf --depend .\objects\dht11.d)
+I (HARDWARE\dht11.h)(0x6501B358)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\SYSTEM\delay\delay.h)(0x583D2EFC)
+F (.\HARDWARE\gpio.c)(0x6347971C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (HARDWARE\gpio.h)(0x634795CE)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (.\HARDWARE\key1.c)(0x65099B8E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\key1.o --omf_browse .\objects\key1.crf --depend .\objects\key1.d)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (HARDWARE\key1.h)(0x6502CD98)
+I (HARDWARE\GPIO.h)(0x634795CE)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\SYSTEM\delay\delay.h)(0x583D2EFC)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+F (.\HARDWARE\rc522.c)(0x65225DC0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\rc522.o --omf_browse .\objects\rc522.crf --depend .\objects\rc522.d)
+I (HARDWARE\rc522.h)(0x63F77734)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (HARDWARE\spi.h)(0x65225D80)
+I (HARDWARE\gpio.h)(0x634795CE)
+I (.\SYSTEM\delay\delay.h)(0x583D2EFC)
+I (.\SYSTEM\usart\usart.h)(0x63F73010)
+F (.\HARDWARE\sg90.c)(0x650093A2)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\sg90.o --omf_browse .\objects\sg90.crf --depend .\objects\sg90.d)
+I (HARDWARE\sg90.h)(0x64F14738)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\SYSTEM\usart\usart.h)(0x63F73010)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\SYSTEM\delay\delay.h)(0x583D2EFC)
+I (.\HARDWARE\LED\led.h)(0x63F76EAE)
+F (.\HARDWARE\spi.c)(0x65225749)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+I (HARDWARE\spi.h)(0x65225D80)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (HARDWARE\gpio.h)(0x634795CE)
+I (.\SYSTEM\delay\delay.h)(0x583D2EFC)
+F (.\HARDWARE\stmflash.c)(0x652247AB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stmflash.o --omf_browse .\objects\stmflash.crf --depend .\objects\stmflash.d)
+I (HARDWARE\stmflash.h)(0x65224741)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\SYSTEM\delay\delay.h)(0x583D2EFC)
+I (.\SYSTEM\usart\usart.h)(0x63F73010)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (.\HARDWARE\TIM3_CAP.c)(0x64F9DA59)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\tim3_cap.o --omf_browse .\objects\tim3_cap.crf --depend .\objects\tim3_cap.d)
+I (HARDWARE\TIM3_CAP.h)(0x6342B2C6)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (.\HARDWARE\tim7.c)(0x652517E9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\tim7.o --omf_browse .\objects\tim7.crf --depend .\objects\tim7.d)
+I (HARDWARE\tim7.h)(0x6347C1A2)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\HARDWARE\LED\led.h)(0x63F76EAE)
+I (.\HARDWARE\WIFI\hal_uart3.h)(0x64F9E0EC)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (HARDWARE\usart4.h)(0x6522A352)
+F (.\HARDWARE\usart2.c)(0x64F9DA59)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\usart2.o --omf_browse .\objects\usart2.crf --depend .\objects\usart2.d)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (HARDWARE\usart2.h)(0x5BB75442)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+F (.\HARDWARE\usart4.c)(0x6522A352)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\usart4.o --omf_browse .\objects\usart4.crf --depend .\objects\usart4.d)
+I (HARDWARE\usart4.h)(0x6522A352)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\SYSTEM\usart\usart.h)(0x63F73010)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (.\HARDWARE\IWDG\iwdg.c)(0x64E80022)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\iwdg.o --omf_browse .\objects\iwdg.crf --depend .\objects\iwdg.d)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A18)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x651FAD63)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\SYSTEM\usart\usart.h)(0x63F73010)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A18)
+I (.\FreeRTOS\include\portable.h)(0x573F3A18)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A18)
+I (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x573F3A18)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A18)
+I (.\FreeRTOS\include\task.h)(0x573F3A18)
+I (.\FreeRTOS\include\list.h)(0x573F3A18)
+I (HARDWARE\IWDG\iwdg.h)(0x64E74BF0)
+F (.\HARDWARE\LCD\lcd.c)(0x63400AC8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+I (HARDWARE\LCD\lcd.h)(0x64E88A36)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (HARDWARE\LCD\font.h)(0x62CD5EF0)
+I (.\SYSTEM\usart\usart.h)(0x63F73010)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\SYSTEM\delay\delay.h)(0x583D2EFC)
+F (.\HARDWARE\LED\led.c)(0x65226F8D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (HARDWARE\LED\led.h)(0x63F76EAE)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\HARDWARE\gpio.h)(0x634795CE)
+F (.\HARDWARE\WIFI\hal_timer2.c)(0x64F9DA59)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\hal_timer2.o --omf_browse .\objects\hal_timer2.crf --depend .\objects\hal_timer2.d)
+I (HARDWARE\WIFI\hal_timer2.h)(0x62B6BD76)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (HARDWARE\WIFI\hal_uart3.h)(0x64F9E0EC)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (.\HARDWARE\WIFI\hal_uart3.c)(0x65251BFC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\hal_uart3.o --omf_browse .\objects\hal_uart3.crf --depend .\objects\hal_uart3.d)
+I (.\HARDWARE\usart4.h)(0x6522A352)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (HARDWARE\WIFI\hal_uart3.h)(0x64F9E0EC)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\SYSTEM\usart\usart.h)(0x63F73010)
+I (.\HARDWARE\beep.h)(0x634764E2)
+I (.\HARDWARE\LED\led.h)(0x63F76EAE)
+I (.\HARDWARE\stmflash.h)(0x65224741)
+I (HARDWARE\WIFI\WiFiToCloud.h)(0x652539B7)
+I (HARDWARE\WIFI\HAL_WiFiToCloud.h)(0x6342D734)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\SYSTEM\delay\delay.h)(0x583D2EFC)
+I (HARDWARE\WIFI\CloudReference.h)(0x65253BF4)
+I (.\TASK\Get_Sensors_Data\Get_Sensors_DataTask.h)(0x6525162F)
+I (.\HARDWARE\tim7.h)(0x6347C1A2)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+F (.\HARDWARE\WIFI\HAL_WiFiToCloud.c)(0x63F763D6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\hal_wifitocloud.o --omf_browse .\objects\hal_wifitocloud.crf --depend .\objects\hal_wifitocloud.d)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\SYSTEM\delay\delay.h)(0x583D2EFC)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (HARDWARE\WIFI\hal_uart3.h)(0x64F9E0EC)
+I (HARDWARE\WIFI\WiFiToCloud.h)(0x652539B7)
+I (HARDWARE\WIFI\HAL_WiFiToCloud.h)(0x6342D734)
+I (HARDWARE\WIFI\CloudReference.h)(0x65253BF4)
+I (.\TASK\Get_Sensors_Data\Get_Sensors_DataTask.h)(0x6525162F)
+F (.\HARDWARE\WIFI\WiFiToCloud.c)(0x652512B5)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\wifitocloud.o --omf_browse .\objects\wifitocloud.crf --depend .\objects\wifitocloud.d)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\HARDWARE\beep.h)(0x634764E2)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\HARDWARE\LED\led.h)(0x63F76EAE)
+I (.\SYSTEM\delay\delay.h)(0x583D2EFC)
+I (HARDWARE\WIFI\WiFiToCloud.h)(0x652539B7)
+I (HARDWARE\WIFI\HAL_WiFiToCloud.h)(0x6342D734)
+I (HARDWARE\WIFI\hal_uart3.h)(0x64F9E0EC)
+I (HARDWARE\WIFI\CloudReference.h)(0x65253BF4)
+I (.\TASK\Get_Sensors_Data\Get_Sensors_DataTask.h)(0x6525162F)
+F (.\HARDWARE\SDIO\sdio_sdcard.c)(0x64F9DA5A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\sdio_sdcard.o --omf_browse .\objects\sdio_sdcard.crf --depend .\objects\sdio_sdcard.d)
+I (HARDWARE\SDIO\sdio_sdcard.h)(0x55BB1256)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\SYSTEM\usart\usart.h)(0x63F73010)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (.\HARDWARE\W25QXX\w25qxx.c)(0x6502F1BA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\w25qxx.o --omf_browse .\objects\w25qxx.crf --depend .\objects\w25qxx.d)
+I (HARDWARE\W25QXX\w25qxx.h)(0x6502F1BA)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\HARDWARE\spi.h)(0x65225D80)
+I (.\HARDWARE\gpio.h)(0x634795CE)
+I (.\SYSTEM\delay\delay.h)(0x583D2EFC)
+I (.\SYSTEM\usart\usart.h)(0x63F73010)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (.\HARDWARE\Encoder.c)(0x6502A583)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\encoder.o --omf_browse .\objects\encoder.crf --depend .\objects\encoder.d)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (.\HARDWARE\Encoder.h)(0x61B03661)()
+F (.\HARDWARE\CountSensor.c)(0x65226F8D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\countsensor.o --omf_browse .\objects\countsensor.crf --depend .\objects\countsensor.d)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (.\HARDWARE\CountSensor.h)(0x6501BEB3)()
+F (.\HARDWARE\MySPI.c)(0x641ECCCC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\myspi.o --omf_browse .\objects\myspi.crf --depend .\objects\myspi.d)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (.\HARDWARE\MySPI.h)(0x641ECF1E)()
+F (.\HARDWARE\W25Q64.c)(0x650308DB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\w25q64.o --omf_browse .\objects\w25q64.crf --depend .\objects\w25q64.d)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (HARDWARE\MySPI.h)(0x641ECF1E)
+I (HARDWARE\W25Q64_Ins.h)(0x641ED248)
+F (.\HARDWARE\W25Q64.h)(0x641ED9A2)()
+F (.\HARDWARE\W25Q64_Ins.h)(0x641ED248)()
+F (.\HARDWARE\SYN6288.c)(0x6522A352)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\syn6288.o --omf_browse .\objects\syn6288.crf --depend .\objects\syn6288.d)
+I (HARDWARE\usart4.h)(0x6522A352)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\SYSTEM\usart\usart.h)(0x63F73010)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (HARDWARE\SYN6288.h)(0x6522A2A4)
+F (.\HARDWARE\SYN6288.h)(0x6522A2A4)()
+F (.\USER\main.c)(0x6522A3CE)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\HARDWARE\LED\led.h)(0x63F76EAE)
+I (.\SYSTEM\sys\sys.h)(0x583D2D92)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\system_stm32f10x.h)(0x4D783CAA)
+I (.\USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (.\HARDWARE\LCD\lcd.h)(0x64E88A36)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\SYSTEM\delay\delay.h)(0x583D2EFC)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A18)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x651FAD63)
+I (.\SYSTEM\usart\usart.h)(0x63F73010)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A18)
+I (.\FreeRTOS\include\portable.h)(0x573F3A18)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A18)
+I (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x573F3A18)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A18)
+I (.\FreeRTOS\include\task.h)(0x573F3A18)
+I (.\FreeRTOS\include\list.h)(0x573F3A18)
+I (.\HARDWARE\beep.h)(0x634764E2)
+I (.\HARDWARE\IWDG\IWDG.h)(0x64E74BF0)
+I (.\TASK\Get_Sensors_Data\Get_Sensors_DataTask.h)(0x6525162F)
+I (.\TASK\lcd_app_play\lcd_app_playTask.h)(0x64E86E68)
+I (.\TASK\user_app_play\user_app_playTask.h)(0x650987F0)
+I (.\TASK\actuator_app_play\actuator_app_playTask.h)(0x650987F0)
+I (.\TASK\wifi_app_play\wifi_app_playTask.h)(0x652208C5)
+I (.\HARDWARE\W25Q64.h)(0x641ED9A2)
+I (.\HARDWARE\stmflash.h)(0x65224741)
+I (.\HARDWARE\usart4.h)(0x6522A352)
+F (.\USER\stm32f10x_it.c)(0x583D2F34)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_it.o --omf_browse .\objects\stm32f10x_it.crf --depend .\objects\stm32f10x_it.d)
+I (USER\stm32f10x_it.h)(0x4D99A426)
+I (USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (USER\system_stm32f10x.h)(0x4D783CAA)
+I (USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (.\USER\system_stm32f10x.c)(0x4D99A426)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\STM32F10x_FWLib\inc -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\TASK\actuator_app_play -I .\TASK\Get_Sensors_Data -I .\TASK\lcd_app_play -I .\TASK\user_app_play -I .\TASK\wifi_app_play -I .\HARDWARE -I .\HARDWARE\IWDG -I .\HARDWARE\LCD -I .\HARDWARE\LED -I .\HARDWARE\WIFI -I .\HARDWARE\WIFI\cloud -I .\MALLOC -I .\FATFS\exfuns -I .\FATFS\src -I .\TEXT -I .\HARDWARE\SDIO -I .\HARDWARE\W25QXX -I .\HARDWARE-I.\RTE\_Target_1-ID:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (USER\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (USER\system_stm32f10x.h)(0x4D783CAA)
+I (USER\stm32f10x_conf.h)(0x55B0C93E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\USER\stm32f10x.h)(0x4D783CB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (.\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (.\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
